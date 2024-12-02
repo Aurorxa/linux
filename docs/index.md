@@ -20,8 +20,8 @@ head:
       content: 许大仙,许大仙的博客
 
 hero:
-  name: "许大仙同学"
-  text: ""
+  name: "云原生"
+  text: "大、全、细"
   tagline: "『云原生是一种基于云计算的架构理念，通过容器、微服务、DevOps 和动态编排技术（如：Kubernetes）构建可扩展、高效和弹性的应用系统。』"
   image:  # text 和 tagline 区域旁的图片
     src: /logo.svg
@@ -50,5 +50,6 @@ features:
 
 
 <confetti />
+<HomeUnderline/>
 
 
