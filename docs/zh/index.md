@@ -33,7 +33,7 @@ hero:
       link: "/"        
     - theme: alt
       text: "🎉快速开始"
-      link: "/notes/"            
+      link: "/01_linux-basic/00_xdx/"            
 
 # 按钮下方的描述
 features:
