@@ -66,3 +66,13 @@
 .vp-code-block-title div[class*="language-"].vp-adaptive-theme::before {
   display: none;
 }
+
+/* 针对代码块标题（非 code-group），移除图标 */
+.vp-code-block-title:not(.vp-code-group) [data-title]::before {
+    display: none !important;
+}
+
+/* 保留 code-group 的图标样式 */
+.vp-code-group [data-title]::before {
+    display: inline-block;
+}
