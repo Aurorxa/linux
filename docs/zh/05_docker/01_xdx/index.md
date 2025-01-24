@@ -630,6 +630,9 @@ services:
       - "--api.insecure=true" # 启用不安全的 API，使得 Traefik 的仪表板可以通过 HTTP 访问。
       - "--providers.docker=true" # 启用 Docker 提供者，使 Traefik 能够从 Docker 中发现服务。
       - "--providers.docker.exposedbydefault=false" # 默认情况下不暴露 Docker 服务，只有明确标记的服务才会暴露。
+      - "--entrypoints.websecure.transport.respondingTimeouts.readTimeout=180000" # 防止客户端超时
+      - "--entrypoints.websecure.transport.respondingTimeouts.writeTimeout=180000" # 防止客户端超时
+      - "--entrypoints.websecure.transport.respondingTimeouts.readTimeout=180000" # 防止客户端超时   
       - "--entrypoints.web.address=:80" # 配置 HTTP 入口点监听 80 端口。
       - "--entrypoints.websecure.address=:443" # 配置 HTTPS 入口点监听 443 端口。
       - "--entrypoints.web.http.redirections.entryPoint.to=websecure" # 将所有 HTTP 请求重定向到 HTTPS。
