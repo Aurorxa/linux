@@ -32,7 +32,7 @@ jobs:
           HOST_URL: ${{ secrets.MEILISEARCH_HOST_URL  }}
         run: |
           echo " 🏃‍♂️ Pulling docker images 🏃‍♂️  "
-          docker pull getmeili/docs-scraper:latest
+          docker pull getmeili/docs-scraper:v0.12.8
           echo " 🏃‍♀️ Running docs-scraper 🏃‍♀️  "
           docker run -t --rm \
             -e MEILISEARCH_HOST_URL=$HOST_URL \
