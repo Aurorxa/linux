@@ -27,7 +27,7 @@
   
 * 其图示如下：
 
-![image-20240115214505877](./assets/1.png)
+![](./assets/1.png)
 
 * 上述的组成部分共同构成了一个完整的 Linux 操作系统，为用户提供了丰富的功能和灵活性。
 
@@ -110,21 +110,21 @@
 
 * 需要在 BIOS 中开启`虚拟化`功能。
 
-![image-20240117085245337](./assets/3.png)
+![](./assets/3.png)
 
 ### 2.3.2 安装步骤
 
 * ① 双击打开 VMware 安装程序 。
 
-![双击打开VMware安装程序.png](./assets/4.png)
+![](./assets/4.png)
 
 * ② 进行下一步安装：
 
-![VMware进行下一步安装.png](./assets/5.png)
+![](./assets/5.png)
 
 * ③ 同意许可协议，单击下一步：
 
-![VMware同意许可协议，单击下一步.png](./assets/6.png)
+![](./assets/6.png)
 
 * ④ 根据需要决定是否需要更改软件的安装位置：
 
@@ -132,25 +132,25 @@
 >
 > 软件的安装位置，最好是除 C 盘以外的任意盘符下！！！
 
-![VMware更改安装位置.png](./assets/7.png)
+![](./assets/7.png)
 
-![VMware更改安装位置成功.png](./assets/8.png)
+![](./assets/8.png)
 
 * ⑤ 更改成功后，单击确定，下一步继续安装：
 
-![VMware更改成功后，单击确定，下一步继续安装.png](./assets/9.png)
+![](./assets/9.png)
 
 * ⑥ 用户体验设置，如下图所示，单击下一步继续安装：
 
-![VMware用户体验设置，如下图所示，单击下一步继续安装.png](./assets/10.png)
+![](./assets/10.png)
 
 * ⑦ 快捷方式设置，单击下一步继续安装：
 
-![VMware快捷方式设置，单击下一步继续安装.png](./assets/11.png)
+![](./assets/11.png)
 
 * ⑧ 单击安装按钮：
 
-![VMware单击安装按钮.png](./assets/12.png)
+![](./assets/12.png)
 
 * ⑨ VMware 输入许可证密钥：
 
@@ -159,45 +159,45 @@
 > * ① VMware Workstation Pro（16.x）的许可证密钥是：`ZF71R-DMX85-08DQY-8YMNC-PPHV8`。
 > * ② VMware Workstation Pro（17.x）的许可证密钥是：`NZ4RR-FTK5H-H81C1-Q30QH-1V2LA`。
 
-![VMware单击许可证.png](./assets/13.png)
+![](./assets/13.png)
 
-![VMware输入许可证.png](./assets/14.png)
+![](./assets/14.png)
 
 * ⑩ 安装结束后，单击完成按钮：
 
-![VMware安装结束后，单击完成按钮.png](./assets/15.png)
+![](./assets/15.png)
 
 * ⑪ 检查虚拟机软件是否安装了虚拟网卡：
 
-![查看VMware安装的虚拟网卡.png](./assets/16.png)
+![](./assets/16.png)
 
-![查看VMware安装的虚拟网卡1.png](./assets/17.png)
+![](./assets/17.png)
 
-![查看VMware安装的虚拟网卡2.png](./assets/18.png)
+![](./assets/18.png)
 
 ### 2.3.2 配置网络
 
 * ① 打开 VMware 虚拟机软件：
 
-![image-20240116202917529](./assets/19.png)
+![](./assets/19.png)
 
 * ② 编辑 → 虚拟网络编辑器：
 
-![image-20240116202955131](./assets/20.png)
+![](./assets/20.png)
 
 * ③ Vmnet8 → 更改设置：
 
-![image-20240116203207282](./assets/21.png)
+![](./assets/21.png)
 
 * ④ 更改子网 IP 地址为 ：`192.168.10.0` ，其目的是为了将 IP 固定。
 
-![image-20240116203357894](./assets/22.png)
+![](./assets/22.png)
 
 * ⑤ DHCP 设置：
 
-![image-20240116203529749](./assets/23.png)
+![](./assets/23.png)
 
-![image-20240116203627959](./assets/24.png)
+![](./assets/24.png)
 
 * ⑤ 通过 `cmd` ，输入 `ipconfig` 命令，查看是否配置成功：
 
@@ -213,27 +213,27 @@
 
 * ① 文件 → 新建虚拟机：
 
-![image-20240117090352182](./assets/26.png)
+![](./assets/26.png)
 
 * ② 选择`自定义`类型的配置：
 
-![image-20240117090443216](./assets/27.png)
+![](./assets/27.png)
 
 * ③ 虚拟机硬件兼容性：下一步即可。
 
-![image-20240117090529266](./assets/28.png)
+![](./assets/28.png)
 
 * ④ 选择`稍后安装操作系统`：
 
-![image-20240117090636337](./assets/29.png)
+![](./assets/29.png)
 
 * ⑤ 选择虚拟机将安装的操作系统：
 
-![image-20240117090805295](./assets/30.png)
+![](./assets/30.png)
 
 * ⑥ 设置虚拟机的`名称`和`安装位置`：
 
-![image-20240117090944676](./assets/31.png)
+![](./assets/31.png)
 
 > [!TIP]
 >
@@ -241,43 +241,43 @@
 
 * ⑦ 虚拟机中处理器的配置：下一步即可。
 
-![image-20240117091051284](./assets/32.png)
+![](./assets/32.png)
 
 * ⑧ 设置虚拟机的`内存`：至少 2048 MB以上。
 
-![image-20240117091202131](./assets/33.png)
+![](./assets/33.png)
 
 * ⑨ 设置虚拟机的`网络类型`：下一步即可。
 
-![image-20240117091257738](./assets/34.png)
+<img src="./assets/34.png" style="zoom:33%;" />
 
 * ⑩ 设置 I/O 控制器类型：下一步即可。
 
-![image-20240117091402913](./assets/35.png)
+![](./assets/35.png)
 
 * ⑪ 选择磁盘类型：下一步即可。
 
-![image-20240117091540264](./assets/36.png)
+![](./assets/36.png)
 
 * ⑫ 选择磁盘：下一步即可。
 
-![image-20240117091640870](./assets/37.png)
+![](./assets/37.png)
 
 * ⑬ 选择磁盘容量：调整为 40 GB。
 
-![image-20240117091832846](./assets/38.png)
+![](./assets/38.png)
 
 * ⑭ 指定磁盘文件：下一步即可。
 
-![image-20240117091907233](./assets/39.png)
+![](./assets/39.png)
 
 * ⑮ 创建虚拟机完毕：
 
-![image-20240117092013264](./assets/40.png)
+![](./assets/40.png)
 
 * ⑯ 查看是否创建虚拟机成功：
 
-![image-20240117092101810](./assets/41.png)
+![](./assets/41.png)
 
 ### 2.4.3 虚拟机归类（分类）
 
@@ -289,15 +289,15 @@
 
 * ① 鼠标右键 → 创建文件夹：
 
-![image-20240117092324545](./assets/42.png)
+![](./assets/42.png)
 
 * ② 修改文件夹的名称：
 
-![image-20240117092600931](./assets/43.png)
+![](./assets/43.png)
 
-![image-20240117092643086](./assets/44.png)
+![](./assets/44.png)
 
-![image-20240117092720769](./assets/45.png)
+![](./assets/45.png)
 
 * ③ 将刚才创建的虚拟机`拖`到该文件夹下：
 
@@ -314,25 +314,25 @@
 
 * ① 编辑虚拟机设置：
 
-![image-20240117093143947](./assets/47.png)
+![](./assets/47.png)
 
 * ② 选择硬盘上的 ISO 镜像文件：
 
-![image-20240117093354461](./assets/48.png)
+![](./assets/48.png)
 
 * ③ 查看是否配置成功：
 
-![image-20240117093435976](./assets/49.png)
+![](./assets/49.png)
 
 ## 2.5 安装 AlmaLinux
 
 * ① `开启此虚拟机`：
 
-![image-20240117093516070](./assets/50.png)
+![](./assets/50.png)
 
 * ② `鼠标点击`进去之后，通过键盘上的`方向键`来选择：
 
-![image-20240117093610205](./assets/51.png)
+![](./assets/51.png)
 
 > [!NOTE]
 >
@@ -342,7 +342,7 @@
 
 * ③ 设置操作系统的`语言`环境为`中文`：
 
-![image-20240117094530342](./assets/53.png)
+![](./assets/53.png)
 
 * ④ 设置系统`安装目的地`：
 
@@ -363,21 +363,21 @@
 
 * ⑦ 配置`网络和主机名`：
 
-![image-20240224223931266](./assets/57.png)
+![](./assets/57.png)
 
-![image-20240224224038036](./assets/58.png)
+![](./assets/58.png)
 
-![image-20240224224138061](./assets/59.png)
+![](./assets/59.png)
 
-![image-20240224224209724](./assets/60.png)
+![](./assets/60.png)
 
-![image-20240224224245924](./assets/61.png)
+![](./assets/61.png)
 
-![image-20240224224344051](./assets/62.png)
+![](./assets/62.png)
 
 * ⑧ 查看`配置网络和主机名`是否成功：
 
-![image-20240224224420273](./assets/63.png)
+![](./assets/63.png)
 
 * ⑨ 点击`开始安装`：漫长的等待……
 
@@ -397,7 +397,7 @@
 ifconfig
 ```
 
-![image-20240117101543732](./assets/66.png)
+![](./assets/66.png)
 
 ### 2.6.2 远程连接 Linux
 
@@ -420,19 +420,19 @@ ifconfig
 
 * ① 新建会话：
 
-![image-20240117101749340](./assets/67.png)
+![](./assets/67.png)
 
 * ② 输入 Linux 的 IP 地址：
 
-![image-20240117101906927](./assets/68.png)
+![](./assets/68.png)
 
 * ③ 输入用户名和密码：
 
-![image-20240117102005340](./assets/69.png)
+![](./assets/69.png)
 
 * ④ 接收和保存远程 Linux 的密钥：
 
-![image-20240117102123845](./assets/70.png)
+![](./assets/70.png)
 
 * ⑤ 查看是否登录成功：
 
